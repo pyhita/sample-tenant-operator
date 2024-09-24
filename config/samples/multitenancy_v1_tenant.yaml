@@ -1,0 +1,9 @@
+apiVersion: multitenancy.codereliant.io/v1
+kind: Tenant
+metadata:
+  labels:
+    app.kubernetes.io/name: sample-tenant-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: tenant-sample
+spec:
+  # TODO(user): Add fields here
